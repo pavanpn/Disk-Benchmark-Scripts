@@ -1,0 +1,12 @@
+#!/usr/bin/gnuplot
+set term pngcairo
+set output 'output.png'
+set title "Disk Latency Histogram"
+set xlabel "Latency" offset 0,-2
+set ylabel "Frequency (%)"
+set ytics "10"
+set yrange [0:100]
+set xtics rotate
+plot "ploutput.txt" using 2:xticlabels(1) with lines
+pause -1 "Hit any key to continue"
+
