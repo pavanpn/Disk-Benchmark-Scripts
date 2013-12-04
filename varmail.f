@@ -23,7 +23,7 @@
 # Use is subject to license terms.
 #
 
-set $dir=/root/FTest/
+set $dir=/mnt/rdisk/
 set $nfiles=1000
 set $meandirwidth=1000000
 set $meanfilesize=16k

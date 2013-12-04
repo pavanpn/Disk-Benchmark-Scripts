@@ -7,7 +7,7 @@ direct=1
 invalidate=1
 runtime=600
 numjobs=1
-filename=/root/test
+filename=/mnt/rdisk/test
 
 [rand-read]
 size=2048m
