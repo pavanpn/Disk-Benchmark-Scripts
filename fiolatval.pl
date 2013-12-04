@@ -18,14 +18,14 @@ open(my $fh, '>>', $filename) or die "Could not open file '$filename' $!";
 
 print "Filebench Started \n";
 my $result=`filebench -f /root/Scripts/Scripts/varmail.f`;
-my $out=`rm -rf /mnt/rdisk/`;
+my $out=`rm -rf /mnt/rdisk/Ftest/`;
 print $fh "$result";
 
 my $result=`filebench -f /root/Scripts/Scripts/fileserver.f`;
-my $out=`rm -rf /mnt/rdisk/`;
+my $out=`rm -rf /mnt/rdisk/Ftest/`;
 print $fh "$result";
 
 my $result=`filebench -f /root/Scripts/Scripts/webserver.f`;
-my $out=`rm -rf /mnt/rdisk/`;
+my $out=`rm -rf /mnt/rdisk/Ftest/`;
 print $fh "$result";
 close $fh;
