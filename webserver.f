@@ -23,7 +23,7 @@
 # Use is subject to license terms.
 #
 
-set $dir=/mnt/rdisk/Ftest/
+set $dir=/backup/test/
 set $nfiles=1000
 set $meandirwidth=20
 set $meanfilesize=16k

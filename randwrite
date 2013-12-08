@@ -7,7 +7,7 @@ direct=1
 invalidate=1
 runtime=600
 numjobs=1
-filename=/mnt/rdisk/test
+filename=/backup/test
 
 [rand-write]
 size=2048m
